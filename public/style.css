@@ -8,30 +8,37 @@
 
 body
 {
-    background-image: url(/public/images/complex-geom.png)
+    background-image: url(/public/images/stars.png)
 }
 
 header {
     width: 100%;
-    box-shadow: 3px 3px 1px rgba(0,0,0,.05);
+    box-shadow: 3px 3px 1px rgb(18, 79, 114);
     padding: 20px 0;
-    margin-bottom: 90px;
+    margin-bottom: 10px;
     position: relative;
+    background-color: #666
 }
 
 
-
-p {
+.adress a{
     color: white;
-    display: block; 
-    float: right;
-    padding: 0 40px;
+    padding:  0px 0px 0px 70%;
+ 
+}
+
+.adress p {
+    color: white;
+    display: table; 
+    float: center;
+    padding:  0px 0px 0px 70%;
   
 }
 
 .logo {
     display: block; 
     float: left;
+    text-decoration: none;  
 }
 
 .logo span {
@@ -127,8 +134,26 @@ h1
     border-left: none;
 }
 
-#Menu{
+#MainStrMenu{
     width: 100%;
     margin: 10px auto 10px;
+    float: center;
+    padding: 150px 10% 3px ;
+}
+
+.imgMainMenu img{
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 32px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+h3{
+    width: 100%;
+    color: red;
+    font-size: 350%;
     float: left;
+    margin-bottom: 0%;
+    margin-top: 0;
 }
