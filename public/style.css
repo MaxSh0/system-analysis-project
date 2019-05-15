@@ -5,11 +5,11 @@
   box-sizing: border-box;
  
 }
-
+/* 
 body
 {
-    background-image: url(/public/images/stars.png)
-}
+     background-image: url(/public/images/black-micro-carbon.png) 
+} */
 
 header {
     width: 100%;
@@ -70,6 +70,7 @@ h1
 #content{
     width: 1000px;
     margin: 10px auto 0px;
+    position: relative;
 }
 
 
@@ -83,7 +84,7 @@ h1
     float: left;
     position: relative;
     list-style: none;
-    background: #ff3131;
+    background: #794f4f;
     width: 190px;
 }
 
@@ -92,10 +93,11 @@ h1
     display: block;
     padding: 35px 65px;
     color: white;
+
 }
 
 #active a, #nav li:hover > a{
-    background: #b32424;
+    background: #5a2626;
 }
 
 #nav ul{
@@ -111,6 +113,7 @@ h1
 
 #nav ul a{
     padding: 18.5px 65px;
+    position: relative;
 }
 
 #nav ul li:hover{
@@ -136,9 +139,11 @@ h1
 
 #MainStrMenu{
     width: 100%;
-    margin: 10px auto 10px;
+    margin: 100px auto 10px;
     float: center;
     padding: 150px 10% 3px ;
+    z-index: 1;
+    position: relative;
 }
 
 .imgMainMenu img{
@@ -147,6 +152,7 @@ h1
     background: #666; /* Цвет фона */
     margin-right: 32px; /* Отступ справа */
     margin-bottom: 10px; /* Отступ снизу */
+    z-index: 1;
 }
 
 h3{
@@ -155,5 +161,31 @@ h3{
     font-size: 350%;
     float: left;
     margin-bottom: 0%;
-    margin-top: 0;
+    margin-top: 30px;
+    position: relative;
 }
+
+
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #111;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 0;
+ }
+ 
+ .demo .large-header {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+    z-index: 0;
+    position: absolute;
+ }
+ 
+ 
+ @media only screen and (max-width: 768px) {
+    .demo .main-title {
+       font-size: 3em;
+       z-index: 1;
+    }
+ }
