@@ -13,25 +13,37 @@ body
 
 header {
     width: 100%;
-    box-shadow: 3px 3px 1px rgb(18, 79, 114);
+    box-shadow: 3px 3px 1px #794f4f;
     padding: 20px 0;
     margin-bottom: 10px;
     position: relative;
-    background-color: #666
+    background-color: rgb(61, 50, 57)
 }
 
 
 .adress a{
     color: white;
-    padding:  0px 0px 0px 70%;
+    margin:  0px 0px 0px 50%;
  
+}
+
+.adress button{
+color:white;
+float:right;
+padding: 10px 16px;
+margin-right: 35px;
+margin-top: 10px;
+background-color: #794f4f;
+border-radius: 10px; 
+outline: none;
+margin-left: 100px;
 }
 
 .adress p {
     color: white;
     display: table; 
     float: center;
-    padding:  0px 0px 0px 70%;
+    padding:  0px 0px 0px 50%;
   
 }
 
@@ -55,7 +67,7 @@ header {
 }
 
 .logo span:nth-child(odd) {
-    background: #EF5A42;
+    background: #794f4f;
 }
 
 .logo span:nth-child(even) {
@@ -77,6 +89,7 @@ h1
 #nav
 {
     font-family: 'Open Sans', arial;
+    
 }
 
 #nav li
@@ -86,6 +99,8 @@ h1
     list-style: none;
     background: #794f4f;
     width: 190px;
+
+    
 }
 
 #nav a{
@@ -147,25 +162,26 @@ h1
 }
 
 .imgMainMenu img{
-    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    border: 2px solid #2e192bc4; /* Рамка вокруг фотографии */
     padding: 15px; /* Расстояние от картинки до рамки */
-    background: #666; /* Цвет фона */
+    background: rgba(102, 102, 102, 0.274); /* Цвет фона */
     margin-right: 32px; /* Отступ справа */
     margin-bottom: 10px; /* Отступ снизу */
     z-index: 1;
 }
 
 h3{
-    width: 100%;
-    color: red;
+    width: 59%;
+    color: rgb(255, 255, 255);
     font-size: 350%;
     float: left;
     margin-bottom: 0%;
     margin-top: 30px;
+    margin-left: 41%;
     position: relative;
 }
 
-
+/* анимация начало */
 .large-header {
     position: relative;
     width: 100%;
@@ -189,3 +205,4 @@ h3{
        z-index: 1;
     }
  }
+ /* анимация конец */
