@@ -37,6 +37,7 @@ background-color: #794f4f;
 border-radius: 10px; 
 outline: none;
 margin-left: 100px;
+box-shadow: 3px 3px 1px #794f4f;
 }
 
 .adress p {
@@ -161,13 +162,15 @@ h1
     position: relative;
 }
 
+
 .imgMainMenu img{
     border: 2px solid #2e192bc4; /* Рамка вокруг фотографии */
-    padding: 15px; /* Расстояние от картинки до рамки */
+    padding: 15px 15px 70px 15px; /* Расстояние от картинки до рамки */
     background: rgba(102, 102, 102, 0.274); /* Цвет фона */
-    margin-right: 32px; /* Отступ справа */
+    margin: 32px; /* Отступ справа */
     margin-bottom: 10px; /* Отступ снизу */
     z-index: 1;
+    border-radius: 20px;
 }
 
 h3{
@@ -180,6 +183,47 @@ h3{
     margin-left: 41%;
     position: relative;
 }
+
+#MainTEXTMenu {
+background-color: #794f4f
+
+}
+
+ 
+.centerText p{
+    position: relative;
+    color: white;
+    margin: 5% 20% ;
+    padding: 5px 5px;
+    background-color: #794f4fa1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* анимация начало */
 .large-header {
@@ -195,14 +239,12 @@ h3{
  .demo .large-header {
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
     z-index: 0;
-    position: absolute;
+    position: fixed;
+    width: 100%;
+    height: 100%;
  }
  
  
- @media only screen and (max-width: 768px) {
-    .demo .main-title {
-       font-size: 3em;
-       z-index: 1;
-    }
- }
+
+ 
  /* анимация конец */
