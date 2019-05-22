@@ -55,13 +55,6 @@ box-shadow: 3px 3px 1px #794f4f;
     
 }
 
-a :hover {
-    text-decoration: none;
-    color: #111;
-    text-decoration: none; 
-    color: black
-}
-
 .logo span {
     color: white;
     display: inline-block;
@@ -73,6 +66,7 @@ a :hover {
     font-size: 30px;
     text-align: center;
     text-shadow: 2px 2px 1px rgba(0,0,0,.4);
+    text-decoration: none;
 }
 
 .logo span:nth-child(odd) {
@@ -240,6 +234,15 @@ button:focus{
 button:active{
     background-color: #794f4fa1;
 }
+
+a{
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 
 /* анимация начало */
 .large-header {
