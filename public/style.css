@@ -2,14 +2,14 @@
 
 * {
   font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
+  box-sizing: border-box; 
  
 }
-/* 
+ 
 body
 {
-     background-image: url(/public/images/black-micro-carbon.png) 
-} */
+   
+} 
 
 header {
     width: 100%;
@@ -17,7 +17,7 @@ header {
     padding: 20px 0;
     margin-bottom: 10px;
     position: relative;
-    background-color: rgb(61, 50, 57)
+    background-color: #3d3239
 }
 
 
@@ -52,6 +52,14 @@ box-shadow: 3px 3px 1px #794f4f;
     display: block; 
     float: left;
     text-decoration: none;  
+    
+}
+
+a :hover {
+    text-decoration: none;
+    color: #111;
+    text-decoration: none; 
+    color: black
 }
 
 .logo span {
@@ -116,28 +124,8 @@ h1
     background: #5a2626;
 }
 
-#nav ul{
-    visibility: hidden;
-    padding: 0;
-    position: absolute;
-}
-
-#nav li:hover >ul{
-    visibility: visible;
-    position: relative;
-}
-
-#nav ul a{
-    padding: 18.5px 65px;
-    position: relative;
-}
-
 #nav ul li:hover{
     background: #d92a2a;
-}
-
-#nav li:first-child:hover > ul{
-    left: 0;
 }
 
 #nav >li{
@@ -174,13 +162,7 @@ h1
 }
 
 h3{
-    width: 59%;
     color: rgb(255, 255, 255);
-    font-size: 350%;
-    float: left;
-    margin-bottom: 0%;
-    margin-top: 30px;
-    margin-left: 41%;
     position: relative;
 }
 
@@ -201,29 +183,63 @@ background-color: #794f4f
 
 
 
+.container1{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+ .card-deck{
+margin-top: 50px;
+    /* position:fixed; */
+ }
+
+img{
+    max-width: 100%;
+    display: block;
+}
 
 
+.label{
+   margin-top: 10rem; 
+   text-align: center
+}
 
+.card-text{
+    color: white;
+}
 
+.card-title{
+    color: white;
+}
 
+.card-body{
+    background-color: #3d3239;
 
+}
 
+.buttonOnCard{
+color:white;
+padding: 10px 16px;
+background-color: #794f4f;
+border-radius: 10px; 
+outline: none;
+}
 
+.card {
+    background-color:#794f4f;
+    margin-bottom: 10px;
+}
 
+button:focus{
+    outline: none !important;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+button:active{
+    background-color: #794f4fa1;
+}
 
 /* анимация начало */
 .large-header {

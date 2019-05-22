@@ -1,66 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>F&G</title>
     <link rel="stylesheet" href="style.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
 
 
 
-    
 </head>
+
 <body>
 
 
 
-  <div class="container demo">
-   <div class="content">
-      <div id="large-header" class="large-header">
-         <canvas id="demo-canvas"></canvas>
-      </div>
-   </div>
-</div>
-  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js'></script>
-<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js'></script>
-<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js'></script>
+    <div class="container1 demo">
+        <div class="content">
+            <div id="large-header" class="large-header">
+                <canvas id="demo-canvas"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js'></script>
 
 
     <header>
-            <nav class="container">
-                    <a class="logo" href="index.html">
-                    <span>F</span>
-                    <span>&</span>
-                    <span>G</span>
-                </a>
-            <nav class = "adress" href="">
-            <a href="graficWorking.html">График работы доставки</a>
-            <button href="">Корзина</button>
-            <p>Самовывоз с 10:00 до 22:00</p>
-        </nav>
-              
-
-             
+        <nav class="container1">
+            <a class="logo" href="index.html">
+                <span>F</span>
+                <span>&</span>
+                <span>G</span>
+            </a>
+            <nav class="adress" href="">
+                <a href="graficWorking.html">График работы доставки</a>
+                <button href="">Корзина</button>
+                <p>Самовывоз с 10:00 до 22:00</p>
             </nav>
 
-                   
+
+
+        </nav>
+
+
     </header>
-    <div id = "content">
+    <div id="content">
 
         <ul id="nav">
             <li>
-                <a href="menu.html">Меню</a>
+                <a href="index.html">Главная</a>
             </li>
             <li>
                 <a href="stock.html">Акции</a>
             </li>
             <li>
-                <a href="delivery.html">Доставка</a>
+                <a href="graficWorking.html">Доставка</a>
             </li>
             <li>
                 <a href="contact.html">Контакты</a>
@@ -72,22 +74,57 @@
     </div>
 
 
-<h3>Новинки</h3>
 
-
-    <div id = "MainStrMenu">
+    <div class="container">
+        <h3 class="label">Новинки</h3>
+        <div class="mb-5 card-deck">
+            <div class="card bg-transparent" style="width: 5rem;">
+                <img src="https://cdn.shopify.com/s/files/1/0969/9128/products/Dragon_-_Iron_Throne_-_Art_From_Game_Of_Thrones_fd406a75-3550-4668-a00c-a2ba06ab74e8.jpg?v=1553772679" class="card-img-top" alt="12">
+                <div class="card-body">
+                    <h5 class="card-title">Game of Thone</h5>
+                    <p class="card-text"> вымышленная вселенная, созданная американским писателем Джорджем Мартином, в которой разворачиваются события саги «Песнь Льда и Огня», а также книг из серии «Повести о Дунке и Эгге», а также попклярнейшего сериала "Игра Престолов"...</p>
+                    <button href="#" class="buttonOnCard">Подробнее...</button>
+                </div>
+            </div>
+            <div class="card bg-transparent" style="width: 5rem;">
+                <img src="images/menu_images/Fallout_main.jpg" class="card-img-top" alt="12">
+                <div class="card-body">
+                    <h5 class="card-title">Fallout</h5>
+                    <p class="card-text">Игровая постапокалиптическая вселенная ,основанная на серии игр выпущенных компаниями Bethesda, Obsidian и другими. Fallout отличается характерным ретрофутуристическим стилем, вдохновлённым культурой 40-50-х...  </p>
+                    <button href="#" class="buttonOnCard">Подробнее...</button>
+                </div>
+            </div>
+            <div class="card bg-transparent" style="width: 5rem;">
+                <img src="images/menu_images/super-heroes.jpg" class="card-img-top" alt="12">
+                <div class="card-body">
+                    <h5 class="card-title">MARVEL</h5>
+                    <p class="card-text">Вселенная, где происходит большинство комиксных историй, издаваемых Marvel Comics. Вселенная Marvel на самом деле существует в мультивселенной, состоящей из тысяч отдельных в селенных, которые созданы Marvel...</p>
+                    <button href="#" class="buttonOnCard">Подробнее...</button>
+                </div>
+            </div>
+            <div class="card bg-transparent" style="width: 5rem;">
+                <img src="images/menu_images/warcraft.jpg" class="card-img-top" alt="12">
+                <div class="card-body">
+                    <h5 class="card-title">WARCRAFT</h5>
+                    <p class="card-text">Вселенная выдержана в стиле фэнтези с примесью стимпанка, европейской культуры и некоторых элементов восточной культуры. История вселенной Warcraft описывает в основном противостояние между Альянсом и Ордой... </p>
+                    <button href="#" class="buttonOnCard">Подробнее...</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div id = "MainStrMenu">
         <p class="imgMainMenu">
     <a href=""> <img src="images/menu_images/nuka_cola.png" wight ="310" height="310" alt = "nuka_cola"/></a>
     <a href=""> <img src="images/menu_images/bottle-3-fab.png" wight ="310" height="310" alt = "pivo"/></a>
     <a href=""> <img src="images/menu_images/tort_1.png" wight=310 height="310" alt = "tort"/></a>
     <a href=""> <img src="images/menu_images/tort_Star_wars.png" wight ="310" height="310" alt = "startort"/></a>
 </p>
-    </div>
+    </div> -->
 
 
 
 
-    
+
 </body>
 
 
