@@ -1,0 +1,29 @@
+.bg-light {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+.container {
+    background-color: #794f4f;
+}
+
+label {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+span {
+    color: #ffffff !important;
+}
+
+.text-muted {
+    color: antiquewhite !important;
+}
+
+p {
+    color: #ffffff;
+}

@@ -1,15 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=cyrillic');
-
 * {
-  font-family: 'Roboto', sans-serif;
-  box-sizing: border-box; 
- 
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
- 
-body
-{
-   
-} 
 
 header {
     width: 100%;
@@ -20,39 +13,27 @@ header {
     background-color: #3d3239
 }
 
-
-.adress a{
+.adress a {
     color: white;
-    margin:  0px 0px 0px 50%;
- 
+    margin: 0px 0px 0px 50%;
 }
 
-.adress button{
-color:white;
-float:right;
-padding: 10px 16px;
-margin-right: 35px;
-margin-top: 10px;
-background-color: #794f4f;
-border-radius: 10px; 
-outline: none;
-margin-left: 100px;
-box-shadow: 3px 3px 1px #794f4f;
+.adress a:hover {
+    text-decoration: none !important;
+    color: white;
 }
 
 .adress p {
     color: white;
-    display: table; 
+    display: table;
     float: center;
-    padding:  0px 0px 0px 50%;
-  
+    padding: 0px 0px 0px 50%;
 }
 
 .logo {
-    display: block; 
+    display: block;
     float: left;
-    text-decoration: none;  
-    
+    text-decoration: none !important;
 }
 
 .logo span {
@@ -65,7 +46,7 @@ box-shadow: 3px 3px 1px #794f4f;
     margin: 5px 0;
     font-size: 30px;
     text-align: center;
-    text-shadow: 2px 2px 1px rgba(0,0,0,.4);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .4);
     text-decoration: none;
 }
 
@@ -77,174 +58,180 @@ box-shadow: 3px 3px 1px #794f4f;
     background: #F8B763;
 }
 
-h1
-{
-   color: antiquewhite;
+h1 {
+    color: antiquewhite;
 }
 
-#content{
+#content {
     width: 1000px;
     margin: 10px auto 0px;
     position: relative;
 }
 
-
-#nav
-{
+#nav {
     font-family: 'Open Sans', arial;
-    
 }
 
-#nav li
-{
+#nav li {
     float: left;
     position: relative;
     list-style: none;
     background: #794f4f;
     width: 190px;
-
-    
 }
 
-#nav a{
+#nav a {
     text-decoration: none;
     display: block;
     padding: 35px 65px;
     color: white;
-
 }
 
-#active a, #nav li:hover > a{
+#active a,
+#nav li:hover>a {
     background: #5a2626;
 }
 
-#nav ul li:hover{
+#nav ul li:hover {
     background: #d92a2a;
 }
 
-#nav >li{
+#nav>li {
     border-right: none;
 }
 
-#nav >li ul li{
+#nav>li ul li {
     border-left: 2px solid #d92a2a;
     border-right: 2px solid #d92a2a;
 }
 
-#nav li:first-child ul, #nav li:first-child ul{
+#nav li:first-child ul,
+#nav li:first-child ul {
     border-left: none;
 }
 
-#MainStrMenu{
+#MainStrMenu {
     width: 100%;
     margin: 100px auto 10px;
     float: center;
-    padding: 150px 10% 3px ;
+    padding: 150px 10% 3px;
     z-index: 1;
     position: relative;
 }
 
-
-.imgMainMenu img{
-    border: 2px solid #2e192bc4; /* Рамка вокруг фотографии */
-    padding: 15px 15px 70px 15px; /* Расстояние от картинки до рамки */
-    background: rgba(102, 102, 102, 0.274); /* Цвет фона */
-    margin: 32px; /* Отступ справа */
-    margin-bottom: 10px; /* Отступ снизу */
+.imgMainMenu img {
+    border: 2px solid #2e192bc4;
+    /* Рамка вокруг фотографии */
+    padding: 15px 15px 70px 15px;
+    /* Расстояние от картинки до рамки */
+    background: rgba(102, 102, 102, 0.274);
+    /* Цвет фона */
+    margin: 32px;
+    /* Отступ справа */
+    margin-bottom: 10px;
+    /* Отступ снизу */
     z-index: 1;
     border-radius: 20px;
 }
 
-h3{
+h3 {
     color: rgb(255, 255, 255);
     position: relative;
 }
 
 #MainTEXTMenu {
-background-color: #794f4f
-
+    margin-top: 10rem;
+    background-color: #794f4f
 }
 
- 
-.centerText p{
+.centerText p {
     position: relative;
     color: white;
-    margin: 5% 20% ;
+    margin: 5% 20%;
     padding: 5px 5px;
     background-color: #794f4fa1
 }
 
-
-
-
-.container1{
+.container1 {
     width: 100%;
     padding-right: 0px;
     padding-left: 0px;
     margin-right: 0px;
     margin-left: 0px;
-
 }
- .card-deck{
-margin-top: 50px;
-    /* position:fixed; */
- }
 
-img{
+.card-deck {
+    margin-top: 50px;
+    /* position:fixed; */
+}
+
+img {
     max-width: 100%;
     display: block;
 }
 
-
-.label{
-   margin-top: 10rem; 
-   text-align: center
+.label {
+    margin-top: 10rem;
+    text-align: center
 }
 
-.card-text{
+.card-text {
     color: white;
 }
 
-.card-title{
+.card-title {
     color: white;
 }
 
-.card-body{
+.card-body {
     background-color: #3d3239;
-
-}
-
-.buttonOnCard{
-color:white;
-padding: 10px 16px;
-background-color: #794f4f;
-border-radius: 10px; 
-outline: none;
 }
 
 .card {
-    background-color:#794f4f;
+    background-color: #794f4f;
     margin-bottom: 10px;
 }
 
-button:focus{
-    outline: none !important;
+.adress .btn-dark {
+    color: white;
+    float: right;
+    padding: 10px 16px;
+    margin-right: 35px;
+    margin-top: 10px;
+    background-color: #794f4f;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 100px;
+    box-shadow: 3px 3px 1px #794f4f;
 }
 
-button:active{
-    background-color: #794f4fa1;
+.btn-dark {
+    padding: 10px 16px !important;
+    color: white!important;
+    background-color: #794f4f!important;
+    border-radius: 10px!important;
+    border: 2px solid #9c9a9aa1 !important;
 }
 
-a{
-    text-decoration: underline;
+.btn-dark:focus {
+    background-color: #794f4f!important;
 }
 
-a:hover{
-    text-decoration: underline;
+.btn-dark:hover {
+    background-color: #794f4fa1 !important;
+}
+
+#carousel {
+    margin-top: 12rem;
+}
+
+.badge-secondary {
+    background-color: #972929 !important;
 }
 
 
-/* анимация начало */
+/* фоновая анимация начало */
+
 .large-header {
     position: relative;
     width: 100%;
@@ -253,17 +240,15 @@ a:hover{
     background-size: cover;
     background-position: center center;
     z-index: 0;
- }
- 
- .demo .large-header {
+}
+
+.demo .large-header {
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
     z-index: 0;
     position: fixed;
     width: 100%;
     height: 100%;
- }
- 
- 
+}
 
- 
- /* анимация конец */
+
+/* анимация конец */
