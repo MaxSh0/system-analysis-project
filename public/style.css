@@ -136,6 +136,7 @@ h1 {
 
 h3 {
     color: rgb(255, 255, 255);
+    text-align: center;
     position: relative;
 }
 
@@ -172,7 +173,7 @@ img {
 
 .label {
     margin-top: 10rem;
-    text-align: center
+    text-align: center;
 }
 
 .card-text {
@@ -223,12 +224,24 @@ img {
 
 #carousel {
     margin-top: 10rem;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-block-end: 7rem;
 }
 
 .badge-secondary {
     background-color: #972929 !important;
 }
 
+.allText{
+    position: relative;
+    color: white;   
+    background-color: #794f4fa1;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px 15px;
+
+}
 
 /* фоновая анимация начало */
 
