@@ -212,3 +212,8 @@ img {
     margin-top: 9rem;
     display: block;
 }
+
+.deadpool {
+    position: relative;
+    float: right;
+}
