@@ -6,7 +6,9 @@
 
 body {
     background: url("images/GoT/FON.jpg");
+ 
     background-attachment: fixed;
+    background-position: center;
 }
 
 header {

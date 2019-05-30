@@ -5,17 +5,18 @@
 }
 
 body {
-    background: url("images/MARVEL/FON.jpg");
+    background: url("images/MARVEL/thumb-1920-997329.jpg");
     background-attachment: fixed;
+    background-position: center;
 }
 
 header {
     width: 100%;
-    box-shadow: 3px 3px 1px #5c5c5c;
+    box-shadow: 3px 3px 1px #01004d;
     padding: 20px 0;
     margin-bottom: 10px;
     position: relative;
-    background-color: #9e9d9d
+    background-color: #02008d
 }
 
 .adress a {
@@ -61,11 +62,11 @@ p {
 }
 
 .logo span:nth-child(odd) {
-    background: #444444;
+    background: #4c5e99;
 }
 
 .logo span:nth-child(even) {
-    background: #470202f1;
+    background: #802c2cf1;
 }
 
 h1 {
@@ -86,7 +87,7 @@ h1 {
     float: left;
     position: relative;
     list-style: none;
-    background: #2d2d2e;
+    background: #01004d;
     width: 190px;
 }
 
@@ -151,7 +152,7 @@ img {
 .label {
     margin-top: 10rem;
     text-align: center;
-    background-color: #2c2c2c;
+    background-color: #4c5e99;
 }
 
 .card-text {
@@ -163,7 +164,7 @@ img {
 }
 
 .card-body {
-    background-color: #3a0000
+    background-color: #02008d
 }
 
 .card {
@@ -185,7 +186,7 @@ img {
 .btn-dark {
     padding: 10px 16px !important;
     color: white!important;
-    background-color: #464646!important;
+    background-color: #4c5e99!important;
     border-radius: 10px!important;
     border: 2px solid #202020a1 !important;
 }
@@ -195,13 +196,13 @@ img {
 }
 
 .btn-dark:hover {
-    background-color: #75110efa !important;
+    background-color: #051053fa !important;
 }
 
 .allText {
     position: relative;
     color: white;
-    background-color: #3d3d3de7;
+    background-color: #4c5e99cc;
     padding: 5px 15px;
 }
 

@@ -7,6 +7,7 @@
 body {
     background: url("images/Fallout/FON.jpg");
     background-attachment: fixed;
+    background-position: center;
 }
 
 header {
