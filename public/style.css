@@ -88,7 +88,7 @@ h1 {
 #nav a {
     text-decoration: none;
     display: block;
-    padding: 35px 65px;
+    padding: 40px 65px;
     color: white;
 }
 
@@ -153,10 +153,28 @@ h3 {
 .centerText p {
     position: relative;
     color: white;
-    margin: 5% 20%;
+    margin: 3% 20%;
     padding: 5px 5px;
     background-color: #794f4fa1;
-    margin-top: 10rem;
+    
+}
+
+#contact_center_text {
+    margin-top: 10%;
+    font-size: 14pt;
+}
+
+.textAboutUs p{
+     text-align: center;
+     margin: 0 0 auto;
+}
+.textAboutUs{
+    width: 1000px;
+   
+}
+
+#delivery_time{
+    margin-top: 3%;
 }
 
 .container1 {
@@ -178,8 +196,9 @@ img {
 }
 
 .label {
-    margin-top: 10rem;
+    margin-top: 12rem;
     text-align: center;
+    
 }
 
 .card-text {
@@ -242,17 +261,21 @@ img {
 .allText {
     position: relative;
     color: white;
-    background-color: #794f4fa1;
+    background-color: #794f4f6c;
     padding: 5px 15px;
 }
 
 .textAboutUs {
     position: relative;
     color: white;
-    background-color: #794f4fa1;
-    margin-left: 10%;
-    margin-right: 10%;
+    background-color: #794f4f67;
+    margin: auto;
     padding: 5px 15px;
+
+}
+
+.textAboutUs p{
+    font-size: 14pt;
 }
 
 
@@ -280,3 +303,4 @@ img {
 
 
 /* анимация конец */
+
