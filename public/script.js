@@ -1,28 +1,5 @@
 function issue() {
-    alert("Вы ввели: " +
-        "\n" +
-        "Имя: " + document.getElementById('firstName').value +
-        "\n" +
-        "Фамилия: " + document.getElementById('lastName').value +
-        "\n" +
-        "Email: " + document.getElementById('email').value +
-        "\n" +
-        "Адрес: " + document.getElementById('address').value +
-        "\n" +
-        "Страна: " + document.getElementById('country').value +
-        "\n" +
-        "Регион: " + document.getElementById('state').value +
-        "\n" +
-        "Индекс: " + document.getElementById('zip').value +
-        "\n" +
-        "Имя на карте: " + document.getElementById('cc-name').value +
-        "\n" +
-        "Номер карты: " + document.getElementById('cc-number').value +
-        "\n" +
-        "Срок истечения: " + document.getElementById('cc-expiration').value +
-        "\n" +
-        "CVV : " + document.getElementById('cc-cvv').value
-    );
+    alert("Заказ принят!");
     var obj = {
         "Имя: ": document.getElementById('firstName').value,
         "Фамилия: ": document.getElementById('lastName').value,

@@ -8,25 +8,36 @@ const userValidator = require('./services/validators')
 
 app.use(express.static('system-analysis-project/public'))
 
-app.use(express.json());
+const urlencodedParser = bodyParser.urlencoded({ extended: false });
 
-app.get('/hello', function(req, res, next) {
-    res.send('hello');
+//app.use(express.json());
+//app.use(bodyParser.json());
+//app.use(bodyParser.urlencoded({ extended: false }));
 
+app.set('view engine', 'ejs');
+
+app.get('/', function(req, res) {
+    //res.render('template');
 });
 
+app.get('/template', function(req, res) {
+    res.render('template');
 
-app.post('/api/dataup', userValidator, (req, res, next) => {
+})
+
+app.post('/template', urlencodedParser, userValidator, (req, res) => {
+    console.log(req.body);
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
         return res.status(422).json({ errors: errors.array() })
     }
-    res.send(req.body)
-
     const { name, surname, email, address, country, state, zip, cc_name, cc_number, cc_expiration, cc_cvv } = req.body;
+    // res.send(req.body)
     Order.create({ name, surname, email, address, country, state, zip, cc_name, cc_number, cc_expiration, cc_cvv })
 })
 
 app.listen(port, function() {
     console.log('Server started on 3000 port')
 });
+
+// userValidator,
